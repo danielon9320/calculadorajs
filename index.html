@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Daniel Rodolfo Lopez Sardi">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5123056da0.js" crossorigin="anonymous"></script>
+    <title>Calculadora JS</title>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <h1 class="text center">Calculadora con JavaScript</h1>
+            <div class="row">
+                <div class="col s12 l4   xl4 offset-xl4">
+                    <div class="card-panel  blue-grey lighten-3 right-align screen">
+                        <span class="black-text result" id="resultado">0</span>
+                    </div>
+                    <div class="buttons">
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('7')">7</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('8')">8</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('9')">9</button></div>
+                        <div class="col s3"><button type="button"
+                                class="waves-effect waves-light orange accent-3 btn" onclick="add('+')">+</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('4')">4</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('5')">5</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('6')">6</button></div>
+                        <div class="col s3"><button type="button"
+                                class="waves-effect waves-light orange accent-3 btn" onclick="add('-')">-</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('1')">1</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('2')">2</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('3')">3</button></div>
+                        <div class="col s3"><button type="button"
+                                class="waves-effect waves-light orange accent-3 btn" onclick="add('*')">*</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="add('0')">0</button></div>
+                        <div class="col s3"><button type="button" class="waves-effect waves-light btn" onclick="del()">AC</button></div>
+                        <div class="col s3"><button type="button"
+                                class="waves-effect waves-light orange accent-3 btn" onclick="calc()">=</button></div>
+                        <div class="col s3"><button type="button"
+                                class="waves-effect waves-light orange accent-3 btn" onclick="add('/')">&divide;</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Probando Materialize CSS</h5>
+             <a href="https://materializecss.com/" target="_blank"> <p class="grey-text text-lighten-4">Website.</p></a>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              
+              <ul>
+                <li><a href="https://www.linkedin.com/in/daniel-rodolfo-lopez-sardi-846166122/" target="_blank"><i class="fab fa-linkedin fa-2x fix"></i></a>
+                     <a href="https://github.com/danielon9320"><i class="fab fa-github-square fa-2x fix"></i></a> </li>
+                <li></li>
+            
+              </ul>
+              <h5 class="white-text">Lopez Sardi, Daniel</h5>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+              <p class="text center"> ©2020 Copyright </p>
+         
+          </div>
+        </div>
+      </footer>
+          
+
+    <script src="js/calculador.js"></script>
+
+
+
+
+</body>
+
+</html>

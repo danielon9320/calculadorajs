@@ -1,0 +1,39 @@
+/*Tamaño del Visor*/
+.screen {
+    height: 100px;
+}
+/*Tamaño del resultado en visor*/
+.result {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+/*Ajuste de botones*/
+.btn{
+    float: left;
+    height: 80px;
+    font-size: 1.2em;
+    border: 1px solid;
+    width: 5.4vw;
+    margin-left: -0.6vw;
+}
+
+.fix{
+    color: white;
+    
+    
+}
+
+/*Responsive rules*/
+@media (max-width: 600px){
+    body {
+        margin-top: 2vh;
+    }
+    .btn {
+        width:21vw;
+        margin-left: -2vw;
+    }
+    .btn-special {
+        width: 43.5vw;
+    }
+}
